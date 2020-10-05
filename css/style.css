@@ -1,0 +1,58 @@
+#container{
+    margin: auto;
+    width: 80%;
+}
+
+#checkbox{
+    display: flex;
+}
+
+.checkbox{
+    float: left;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+
+h1{
+    text-align: center;
+}
+
+#center{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 2px;
+    padding: 2px;
+}
+
+#center section{
+    width: 150px;
+    margin: 10px;
+
+    float: left;
+}
+
+#center section p img{
+    text-align: center;
+    align-items: initial;
+}
+
+#center section p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+span{
+    margin-left: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
